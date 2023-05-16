@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#a88952;
+}
+
+.parent{
+    background-color:#deb26fdb;
+    width: 100%;
+}
+
+.parent .right,.left{
+    width:50%;
+    float:left;
+}
+
+.left img{
+    width:100%;
+    height:700px;
+}
+
+@media (max-width:888px){
+    .parent{
+        height:700px;
+    }
+    .parent .right,.left{
+        width:100%;
+    
+    }
+}
+
+@media (max-width:400px){
+    .left img{
+        width: 250px;
+        display:block;
+        margin:auto;
+        height:250px;
+    }
+}
+   
